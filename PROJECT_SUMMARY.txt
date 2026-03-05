@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║                    🎓 STUDENT RESUME ANALYZER 🎓                             ║
@@ -325,3 +326,332 @@
                     Built with ❤️ using React, Flask & Gemini AI
 
                               Version 1.0.0 | 2026
+=======
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                    🎓 STUDENT RESUME ANALYZER 🎓                             ║
+║                                                                              ║
+║                    AI-Powered Resume Analysis Platform                       ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              📊 PROJECT OVERVIEW                             │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    🎯 PURPOSE
+    ├─ Analyze student resumes for ATS compatibility
+    ├─ Provide AI-powered feedback and recommendations
+    ├─ Help students improve their job application materials
+    └─ Offer instant, actionable insights
+
+    🏗️ ARCHITECTURE
+    ├─ Frontend: React 18 + Vite
+    ├─ Backend: Flask 3.0 + Python
+    ├─ AI Engine: Google Gemini AI
+    └─ Design: Premium Dark Theme
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              🚀 QUICK START                                  │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    STEP 1: Get Gemini API Key
+    └─ Visit: https://makersuite.google.com/app/apikey
+
+    STEP 2: Setup (Choose One)
+    
+    Option A - Automated:
+    └─ Run: .\setup.ps1
+    
+    Option B - Manual:
+    ├─ Backend:
+    │  ├─ cd backend
+    │  ├─ python -m venv venv
+    │  ├─ venv\Scripts\activate
+    │  ├─ pip install -r requirements.txt
+    │  └─ copy .env.example .env (add API key)
+    │
+    └─ Frontend:
+       ├─ cd frontend
+       └─ npm install
+
+    STEP 3: Run Application
+    
+    Terminal 1 (Backend):
+    ├─ cd backend
+    ├─ venv\Scripts\activate
+    └─ python app.py
+    
+    Terminal 2 (Frontend):
+    ├─ cd frontend
+    └─ npm run dev
+
+    STEP 4: Open Browser
+    └─ http://localhost:3000
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              ✨ KEY FEATURES                                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    📄 FILE UPLOAD
+    ├─ Drag & drop interface
+    ├─ PDF and DOCX support
+    ├─ File validation (type & size)
+    └─ Max 10MB file size
+
+    🤖 AI ANALYSIS
+    ├─ Google Gemini AI powered
+    ├─ ATS score (0-100)
+    ├─ Strengths identification
+    ├─ Weakness detection
+    ├─ Actionable recommendations
+    └─ Overall summary
+
+    🎨 USER INTERFACE
+    ├─ Premium dark theme
+    ├─ Smooth animations
+    ├─ Responsive design
+    ├─ Circular score visualization
+    ├─ Categorized feedback
+    └─ Mobile-friendly
+
+    ⚡ PERFORMANCE
+    ├─ Real-time processing
+    ├─ 5-10 second analysis
+    ├─ Instant feedback
+    └─ No page refresh needed
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              📁 PROJECT STRUCTURE                            │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    maanavan/
+    │
+    ├── 📁 frontend/
+    │   ├── src/
+    │   │   ├── components/
+    │   │   │   ├── Header.jsx
+    │   │   │   ├── UploadSection.jsx
+    │   │   │   ├── AnalysisResults.jsx
+    │   │   │   └── LoadingSpinner.jsx
+    │   │   ├── App.jsx
+    │   │   ├── main.jsx
+    │   │   └── index.css
+    │   ├── index.html
+    │   ├── package.json
+    │   └── vite.config.js
+    │
+    ├── 📁 backend/
+    │   ├── services/
+    │   │   ├── resume_parser.py
+    │   │   └── ai_analyzer.py
+    │   ├── uploads/
+    │   ├── app.py
+    │   ├── requirements.txt
+    │   └── .env.example
+    │
+    └── 📚 Documentation/
+        ├── README.md
+        ├── QUICKSTART.md
+        ├── FEATURES.md
+        ├── PROJECT_STRUCTURE.md
+        ├── COMPLETE_GUIDE.md
+        ├── PROJECT_CHECKLIST.md
+        └── setup.ps1
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              🛠️ TECH STACK                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    FRONTEND
+    ├── React 18.2.0          → UI Library
+    ├── Vite 5.0.0            → Build Tool
+    ├── Axios 1.6.0           → HTTP Client
+    └── Lucide React 0.294.0  → Icons
+
+    BACKEND
+    ├── Flask 3.0.0                    → Web Framework
+    ├── Flask-CORS 4.0.0               → CORS Support
+    ├── PyPDF2 3.0.1                   → PDF Parsing
+    ├── python-docx 1.1.0              → DOCX Parsing
+    ├── google-generativeai 0.3.2      → Gemini AI
+    └── python-dotenv 1.0.0            → Environment Variables
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              🎨 DESIGN SYSTEM                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    COLORS
+    ├── Primary:   #6366f1 (Indigo)   🟣
+    ├── Secondary: #8b5cf6 (Purple)   🟪
+    ├── Success:   #10b981 (Green)    🟢
+    ├── Warning:   #f59e0b (Amber)    🟡
+    ├── Error:     #ef4444 (Red)      🔴
+    └── Accent:    #06b6d4 (Cyan)     🔵
+
+    TYPOGRAPHY
+    ├── Font Family: Inter (Google Fonts)
+    ├── Sizes: xs, sm, base, lg, xl, 2xl, 3xl, 4xl
+    └── Weights: 300, 400, 500, 600, 700, 800
+
+    EFFECTS
+    ├── Glassmorphism cards
+    ├── Gradient buttons
+    ├── Smooth animations
+    ├── Hover effects
+    └── Progress indicators
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              📊 API ENDPOINTS                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    GET /api/health
+    ├─ Purpose: Health check
+    └─ Response: { "status": "healthy", "message": "..." }
+
+    POST /api/analyze
+    ├─ Purpose: Analyze resume
+    ├─ Input: multipart/form-data (resume file)
+    └─ Response: { "score": 85, "analysis": {...} }
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              🔧 TROUBLESHOOTING                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    ⚠️ PowerShell Script Error
+    └─ Fix: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+    ⚠️ Port Already in Use
+    └─ Fix: Change port in app.py or vite.config.js
+
+    ⚠️ Module Not Found
+    └─ Fix: Reinstall dependencies (pip install / npm install)
+
+    ⚠️ Gemini API Error
+    └─ Fix: Check API key in .env, restart server
+
+    ⚠️ CORS Error
+    └─ Fix: Ensure backend on port 5000, check flask-cors
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              📚 DOCUMENTATION                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    📖 README.md
+    └─ Main documentation with setup, features, and API reference
+
+    🚀 QUICKSTART.md
+    └─ 5-minute quick start guide
+
+    ✨ FEATURES.md
+    └─ Comprehensive feature list and capabilities
+
+    🏗️ PROJECT_STRUCTURE.md
+    └─ Architecture, data flow, and technical details
+
+    📘 COMPLETE_GUIDE.md
+    └─ Everything in one place - installation to deployment
+
+    ✅ PROJECT_CHECKLIST.md
+    └─ Project completion status and statistics
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              🎯 USAGE WORKFLOW                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    1. UPLOAD
+       └─ Drag/drop or select PDF/DOCX resume
+
+    2. VALIDATE
+       └─ System checks file type and size
+
+    3. PROCESS
+       └─ Extract text from document
+
+    4. ANALYZE
+       └─ AI evaluates resume content
+
+    5. DISPLAY
+       └─ Show score and detailed feedback
+
+    6. IMPROVE
+       └─ Apply recommendations
+
+    7. RE-ANALYZE
+       └─ Upload improved version
+
+    8. COMPARE
+       └─ See score improvements
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              📈 PROJECT STATS                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    Total Files:           28
+    React Components:      4
+    Backend Services:      2
+    API Endpoints:         2
+    Documentation Files:   6
+    Lines of Code:         ~1,500+
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              ✅ COMPLETION STATUS                            │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    ✅ Frontend Development      COMPLETE
+    ✅ Backend Development       COMPLETE
+    ✅ AI Integration            COMPLETE
+    ✅ UI/UX Design              COMPLETE
+    ✅ Error Handling            COMPLETE
+    ✅ Documentation             COMPLETE
+    ✅ Setup Scripts             COMPLETE
+    ✅ Testing Ready             COMPLETE
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                         🎉 PROJECT COMPLETE! 🎉                              ║
+║                                                                              ║
+║                  Ready to analyze resumes and help students                  ║
+║                     land their dream jobs and internships!                   ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                            🚀 NEXT STEPS
+
+    1. Get your Gemini API key from:
+       https://makersuite.google.com/app/apikey
+
+    2. Run the setup script:
+       .\setup.ps1
+
+    3. Add your API key to backend/.env
+
+    4. Start the servers (2 terminals):
+       Terminal 1: cd backend && venv\Scripts\activate && python app.py
+       Terminal 2: cd frontend && npm run dev
+
+    5. Open http://localhost:3000 and start analyzing!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+                    Built with ❤️ using React, Flask & Gemini AI
+
+                              Version 1.0.0 | 2026
+>>>>>>> 949c83d0475b03d2e67295059844fd47e86bf653
