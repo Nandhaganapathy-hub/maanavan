@@ -1,0 +1,4 @@
+# Uploads directory for temporary resume storage
+*.pdf
+*.docx
+*.doc
